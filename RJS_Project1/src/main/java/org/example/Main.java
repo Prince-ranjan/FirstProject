@@ -3,13 +3,32 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+
+        Pen bluePen = new Pen("ball Pen", "Linc", "Blue");
+
+        //System.out.println(bluePen.getType());
+
+        Pen blackPen = new Pen("Gel pen", "Renyolds", "Black");
+
+        bluePen.getCountryOfOrigin();
+
+        Fan srutiHouseFan = new Fan("Ceiling", "Bajaj", "grey", 3, 60);
+
+        System.out.println(srutiHouseFan.getType());
+
+        srutiHouseFan.setType("Wall fan");
+
+        System.out.println(srutiHouseFan.getType());
+
+        System.out.println(srutiHouseFan.);
+
         Television RajendraTv = new Television("Samsung", "Black", "55", "20/12/2023", false);
 
         Television myTv = new Television("LG", "Gray", "43", "20/10/2020", true);
 
-        RajendraTv.powerOn();
-
-        RajendraTv.powerOf();
+//        RajendraTv.powerOn();
+//
+//        RajendraTv.powerOf();
 
         int[] arr = new int[6];
 

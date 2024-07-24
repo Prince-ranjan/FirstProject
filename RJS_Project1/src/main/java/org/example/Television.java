@@ -16,6 +16,9 @@ public class Television {
         System.out.println("turn of the TV");
     }
 
+    public Television() {
+    }
+
     public Television(String brand, String color, String size, String dateOfManufacture, Boolean isWarrentyExpired) {
         Brand = brand;
         Color = color;
@@ -23,4 +26,17 @@ public class Television {
         DateOfManufacture = dateOfManufacture;
         this.isWarrentyExpired = isWarrentyExpired;
     }
+
+    public Television(String dateOfManufacture, Boolean isWarrentyExpired) {
+        DateOfManufacture = dateOfManufacture;
+        this.isWarrentyExpired = isWarrentyExpired;
+    }
+
+    public Television(String brand, String color, String size) {
+        Brand = brand;
+        Color = color;
+        this.size = size;
+    }
+
+
 }
