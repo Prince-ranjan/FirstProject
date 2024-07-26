@@ -15,6 +15,16 @@ public class Fan {
         this.power = power;
     }
 
+    public Fan(String type) {
+        this.type = type;
+    }
+
+    public Fan(String  type, String brand, String color) {
+        this.type = type;
+        this.brand = brand;
+        this.color = color;
+    }
+// method overloading
     public String getType() {
         return type;
     }
